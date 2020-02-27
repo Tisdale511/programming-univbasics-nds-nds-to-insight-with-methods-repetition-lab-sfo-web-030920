@@ -28,13 +28,13 @@ end
 def list_of_directors(source)
   # Write this implementation
   binding.pry
-  list = []
+  directors = []
   idx = 0
   while idx < source.length do
-    list.push(source[idx][:name])
+    directors.push(source[idx][:name])
     idx += 1
   end
-  return list
+  return directors
 end
 
 def total_gross(source)
