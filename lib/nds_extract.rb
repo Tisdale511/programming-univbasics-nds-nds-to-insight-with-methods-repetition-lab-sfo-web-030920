@@ -27,7 +27,7 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-  #binding.pry
+  binding.pry
   directors = []
   idx = 0
   while idx < source.length do
@@ -38,7 +38,6 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  binding.pry
   idx = 0
   total = 0
   
