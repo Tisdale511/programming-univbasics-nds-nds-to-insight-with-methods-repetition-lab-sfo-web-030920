@@ -38,7 +38,7 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  #binding.pry
+  binding.pry
   idx = 0
   total = 0
   
