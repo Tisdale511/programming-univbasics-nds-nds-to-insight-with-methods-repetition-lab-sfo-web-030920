@@ -30,7 +30,7 @@ def list_of_directors(source)
   directors = []
   idx = 0
   while idx < directors.length do
-    directors << directors[idx][:name]
+    directors << source[idx][:name]
     idx +=1
   end
   directors
@@ -40,6 +40,7 @@ def total_gross(source)
   #binding.pry
   idx = 0
   total = 0
+  
   while idx < source.length do
     total += list_of_directors(idx)[directors_totals(idx)]
     idx += 1
