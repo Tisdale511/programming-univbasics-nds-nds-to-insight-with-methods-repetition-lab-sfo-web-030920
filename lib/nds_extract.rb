@@ -27,6 +27,7 @@ end
 
 def list_of_directors(source)
   # Write this implementation
+  binding.pry
   directors = []
   idx = 0
   while idx < directors.length do
