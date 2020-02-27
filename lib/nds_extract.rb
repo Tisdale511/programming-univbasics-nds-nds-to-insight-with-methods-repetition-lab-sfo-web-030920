@@ -40,7 +40,7 @@ def total_gross(source)
   binding.pry
   idx = 0
   total = 0
-  while idx < source[idx] do
+  while idx < source[] do
   
   # Write this implementation
   #
