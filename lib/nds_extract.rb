@@ -38,6 +38,10 @@ end
 
 def total_gross(source)
   binding.pry
+  idx = 0
+  total = 0
+  while idx < source[idx] do
+  
   # Write this implementation
   #
   # Should use methods:
