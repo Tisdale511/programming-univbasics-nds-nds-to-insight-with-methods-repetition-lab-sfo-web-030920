@@ -42,7 +42,7 @@ def total_gross(source)
   total = 0
   
   while idx < source.length do
-    total += list_of_directors(idx)[directors_totals(idx)]
+    total += list_of_directors(source)[directors_totals(source)]
     idx += 1
   end  
   # Write this implementation
